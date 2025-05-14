@@ -68,8 +68,9 @@ Essas regras estão em:
 internal/fraud/service/antifraud.go
 
 📡 API - Endpoint de Pagamento
-POST /payment
-📤 Exemplo de JSON de entrada:
+POST /payment\
+
+📤 Exemplo de JSON de entrada:\
 {\
   "id": "1",\
   "user_id": "user123",\
