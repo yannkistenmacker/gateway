@@ -39,19 +39,19 @@ gateway/
 
 ### 1. Clone o repositório
 
-```bash
+
 git clone https://github.com/seu-usuario/gateway.git
 cd gateway
+
 2. Inicie o módulo Go
 bash
-Copiar
-Editar
+go mod init gateway
 go mod tidy
+
 3. Execute a aplicação
 bash
-Copiar
-Editar
 go run ./cmd/main.go
+
 A aplicação estará disponível em:
 📍 http://localhost:8080/payment
 
