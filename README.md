@@ -14,27 +14,6 @@ Este projeto é um **gateway de pagamentos simples e funcional** escrito em **Go
 
 ---
 
-## 📁 Estrutura de Pastas
-
-gateway/
-├── go.mod
-├── cmd/
-│ └── main.go # Entrada da aplicação
-├── internal/
-│ ├── api/
-│ │ └── handler/
-│ │ └── payment_handler.go # Endpoint de pagamento
-│ ├── fraud/
-│ │ ├── models/
-│ │ │ └── payment.go # Modelo de dados
-│ │ └── service/
-│ │ └── antifraud.go # Lógica antifraude
-│ └── payment/
-│ └── service/
-│ └── processor.go # Processador de pagamentos
-
----
-
 ## 📦 Instalação e Execução
 
 ### 1. Clone o repositório
