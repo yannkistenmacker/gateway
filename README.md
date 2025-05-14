@@ -70,17 +70,17 @@ internal/fraud/service/antifraud.go
 📡 API - Endpoint de Pagamento
 POST /payment
 📤 Exemplo de JSON de entrada:
-{
-  "id": "1",
-  "user_id": "user123",
-  "amount": 500,
-  "currency": "BRL",
-  "card_number": "4111111111111111",
-  "card_holder": "João Silva",
-  "card_expiry": "12/26",
-  "cvv": "123",
-  "ip_address": "192.168.0.1",
-  "device_id": "device-001"
+{\
+  "id": "1",\
+  "user_id": "user123",\
+  "amount": 500,\
+  "currency": "BRL",\
+  "card_number": "4111111111111111",\
+  "card_holder": "João Silva",\
+  "card_expiry": "12/26",\
+  "cvv": "123",\
+  "ip_address": "192.168.0.1",\
+  "device_id": "device-001"\
 }
 
 📥 Respostas possíveis:
