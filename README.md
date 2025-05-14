@@ -84,12 +84,12 @@ POST /payment\
   "device_id": "device-001"\
 }
 
-📥 Respostas possíveis:
-Código	Significado
-200	Pagamento aceito
-400	Erro de validação JSON
-403	Pagamento identificado como fraude
-405	Método HTTP não permitido
+📥 Respostas possíveis:\
+Código	Significado\
+200	Pagamento aceito\
+400	Erro de validação JSON\
+403	Pagamento identificado como fraude\
+405	Método HTTP não permitido\
 
 
 👨‍💻 Autor
