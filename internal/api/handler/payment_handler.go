@@ -1,8 +1,12 @@
 package handler
 
 import (
+
 	"encoding/json"
 	"net/http"
+	"github.com/yannkistenmacker/gateway/internal/fraud/models"
+	"github.com/yannkistenmacker/gateway/internal/fraud/service"
+
 )
 
 func PaymentHandler(w http.ResponseWriter, r *http.Request) {

@@ -3,7 +3,7 @@ package service
 import (
 	"strings"
 
-	"Gateway/internal/fraud/models/"
+	"github.com/yannkistenmacker/gateway/internal/fraud/models"
 )
 
 func IsFraudulent(payment models.Payment) bool {
