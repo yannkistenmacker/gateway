@@ -33,10 +33,6 @@ gateway/
 │ └── service/
 │ └── processor.go # Processador de pagamentos
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 📦 Instalação e Execução
