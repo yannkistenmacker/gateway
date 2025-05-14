@@ -34,7 +34,7 @@ go run ./cmd/main.go
 A aplicação estará disponível em:
 📍 http://localhost:8080/payment
 
-🔐 Regras Antifraude
+🔐 Regras Antifraude\
 O sistema considera um pagamento como fraude se:
 
 💸 O valor for maior que R$ 10.000,00
