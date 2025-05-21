@@ -1,6 +1,7 @@
 package main
 
 import (
+	"gateway/internal/api/handler"
 	"log"
 	"net/http"
 )

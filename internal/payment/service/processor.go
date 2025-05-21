@@ -3,8 +3,9 @@ package service
 import (
 	"fmt"
 
-	fraudModels "github.com/yannkistenmacker/gateway/internal/fraud/models"
-	"github.com/yannkistenmacker/gateway/internal/fraud/service"
+	fraudModels "gateway/internal/fraud/models"
+
+	"gateway/internal/fraud/service"
 )
 
 func ProcessPayment(payment fraudModels.Payment) error {

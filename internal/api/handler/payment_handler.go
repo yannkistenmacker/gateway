@@ -1,12 +1,10 @@
 package handler
 
 import (
-
 	"encoding/json"
+	fraudModels "gateway/internal/fraud/models"
+	"gateway/internal/payment/service"
 	"net/http"
-	"github.com/yannkistenmacker/gateway/internal/fraud/models"
-	"github.com/yannkistenmacker/gateway/internal/fraud/service"
-
 )
 
 func PaymentHandler(w http.ResponseWriter, r *http.Request) {
@@ -15,7 +13,7 @@ func PaymentHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var payment fraudModels.payment
+	var payment fraudModels.Payment
 	err := json.NewDecoder(r.Body).Decode(&payment)
 	if err != nil {
 		http.Error(w, "Erro ao decodificar o pagamento", http.StatusBadRequest)
